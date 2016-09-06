@@ -77,6 +77,8 @@
 #include "src/gtest-internal-inl.h"
 #undef GTEST_IMPLEMENTATION_
 
+typedef _RTL_CRITICAL_SECTION _CRITICAL_SECTION;
+
 namespace testing {
 namespace internal {
 
